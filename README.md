@@ -1,10 +1,15 @@
 # Keylogger Project
 
-A simple and lightweight keylogger built with Python, utilizing the `pynput` library. This tool records every key press and saves it to a file for later review.
+## Overview
+This is a simple and lightweight keylogger built in Python using the `pynput` library. It records all key presses and stores them in a log file for later review. 
+
+⚠ **Disclaimer:** This project is strictly for educational and ethical use only. Unauthorized use of keyloggers is illegal. Ensure you have explicit permission before running this software.
 
 ## Features
-- Logs all key presses to a specified file.
+- Logs all key presses in real-time.
 - Runs silently in the background without opening a console window.
+- Stores logs in a specified file.
+- Lightweight and easy to use.
 
 ## Requirements
 - Python 3.x
@@ -12,33 +17,30 @@ A simple and lightweight keylogger built with Python, utilizing the `pynput` lib
 
 ## Installation
 
-1. Clone this repository or download the script.
-2. Install the necessary dependencies by running:
-
+1. **Clone the repository** or download the script:
+   ```bash
+   git clone https://github.com/your-repo/keylogger.git
+   cd keylogger
+   ```
+   
+2. **Install the required dependency:**
    ```bash
    pip install pynput
    ```
-
-3. Optionally, modify the script to update the file path where the key presses will be saved.
+   
+3. **Modify the script** (optional):
+   - Change the log file path if necessary.
 
 ## Usage
 
 ### Running the Script
-To run the keylogger, simply:
-
 1. Open a terminal or command prompt.
-2. Execute the `.bat` file or navigate to your script directory and run:
-
+2. Run the script in the background without showing a console window:
    ```bash
    start pythonw.exe path\to\your\script.py
    ```
+3. Alternatively, you can start the script by **double-clicking** a `.bat` file that contains the above command.
 
-This will run the script in the background, without a console window appearing.
-
-### Customizing Key Press Storage
-By default, key presses are saved in `keyfile.txt`. You can customize the file path in the script to store the logs wherever you prefer.
-
-## Disclaimer
-This project is intended for educational purposes only. Always ensure that you have explicit permission before using such software, and comply with all applicable legal guidelines and regulations.
-
-
+### Customizing Log Storage
+- By default, logs are saved in `keyfile.txt`.
+- To change this, edit the script and modify the file path accordingly.
