@@ -19,7 +19,7 @@ This is a simple and lightweight keylogger built in Python using the `pynput` li
 
 1. **Clone the repository** or download the script:
    ```bash
-   git clone https://github.com/your-repo/keylogger.git
+   git clone https://github.com/MarsgameJu/Keylogger.git
    cd keylogger
    ```
    
